@@ -50,15 +50,21 @@ class Glove(object):
 
             # # Adaptive gradient updates
             fdiff *= stepSize  # for ease in calculating gradient
-            for b in range(self.d):
-                # learning rate times gradient for word vectors
-                temp1 = fdiff * self.contextW[b + l2]
-                temp2 = fdiff * self.W[b + l1]
-                # adaptive updates
-                self.W[b + l1] -= (temp1 / np.sqrt(self.gradsqW[b + l1]))
-                self.contextW[b + l2] -= (temp2 / np.sqrt(self.gradsqContextW[b + l2]))
-                self.gradsqW[b + l1] += temp1 * temp1
-                self.gradsqContextW[b + l2] += temp2 * temp2
+            temp1 = fdiff*self.contextW[l2]
+            temp2 = fdiff*self.W[l1]
+            self.W[l1] -= (fdiff*self.contextW[l2])/np.sqrt(self.gradsqW[l1])
+            self.contextW[l2] -= (fdiff * self.W[l1]) / np.sqrt(self.gradsqContextW[l2])
+            self.gradsqW[l1] += temp1 * temp1
+            self.gradsqContextW[l2] += temp2 * temp2
+            # for b in range(self.d):
+            #     # learning rate times gradient for word vectors
+            #     temp3 = fdiff * self.contextW[b + l2]
+            #     temp4 = fdiff * self.W[b + l1]
+            #     # adaptive updates
+            #     self.W[b + l1] -= (temp1 / np.sqrt(self.gradsqW[b + l1]))
+            #     self.contextW[b + l2] -= (temp2 / np.sqrt(self.gradsqContextW[b + l2]))
+            #     self.gradsqW[b + l1] += temp1 * temp1
+            #     self.gradsqContextW[b + l2] += temp2 * temp2
             # updates for bias terms
             self.bias[i[batchIndex]] -= fdiff / np.sqrt(self.gradsqb[i[batchIndex]]);
             self.contextB[j[batchIndex]] -= fdiff / np.sqrt(self.gradsqContextB[j[batchIndex]]);

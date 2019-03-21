@@ -6,3 +6,4 @@ corpus_cython.cpp
 setup.py
 Trial_Sentences.txt
 wordsToIds.pkl
+glove_cython_D.pyx

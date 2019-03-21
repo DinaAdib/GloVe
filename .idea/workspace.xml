@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a0d4415-a8f6-4761-a0a3-20c913aa8c25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/glove.py" beforeDir="false" afterPath="$PROJECT_DIR$/glove.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_torch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/glove_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/glove_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraries.py" beforeDir="false" afterPath="$PROJECT_DIR$/libraries.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,41 +34,41 @@
           <entry key="cpp" value="1" />
           <entry key="h" value="1" />
           <entry key="pkl" value="1" />
-          <entry key="py" value="25" />
-          <entry key="pyx" value="3" />
+          <entry key="py" value="26" />
+          <entry key="pyx" value="4" />
           <entry key="tsv" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="C++" value="8" />
-          <entry key="Cython" value="3" />
+          <entry key="Cython" value="4" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="25" />
+          <entry key="Python" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="12" />
-          <entry key="py" value="4927" />
+          <entry key="py" value="5044" />
           <entry key="pyx" value="1293" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cython" value="1293" />
-          <entry key="Python" value="4939" />
+          <entry key="Python" value="5056" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/glove.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="79" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="79" />
+            <state relative-caret-position="220">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
                 <marker date="1553177712310" expanded="true" signature="294:299" ph="..." />
@@ -82,24 +79,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/glove_cython_D.pyx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="55" column="33" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/glove_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="70" column="28" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="28" />
+            <state relative-caret-position="138">
+              <caret line="47" column="24" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="24" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
                 <element signature="e#278#1333#0" expanded="true" />
-                <element signature="e#1429#3162#0" expanded="true" />
                 <element signature="e#3235#6156#0" expanded="true" />
                 <element signature="e#1760#3079#0" expanded="true" />
                 <element signature="e#4956#5589#0" expanded="true" />
-                <marker date="1553181588021" expanded="true" signature="1345:3168" ph="..." />
-                <marker date="1553181588021" expanded="true" signature="3576:3589" ph="..." />
-                <marker date="1553181588021" expanded="true" signature="4875:4876" ph="..." />
-                <marker date="1553181588021" expanded="true" signature="4876:4889" ph="..." />
+                <marker date="1553187422551" expanded="true" signature="1345:3533" ph="..." />
+                <marker date="1553187422551" expanded="true" signature="3941:3954" ph="..." />
+                <marker date="1553187422551" expanded="true" signature="5240:5241" ph="..." />
+                <marker date="1553187422551" expanded="true" signature="5241:5254" ph="..." />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/train_torch.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -129,8 +139,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/corpus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="-401">
               <caret line="58" column="70" selection-start-line="58" selection-start-column="70" selection-end-line="58" selection-end-column="70" />
+              <folding>
+                <element signature="e#1814#3784#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,8 +188,8 @@
       <find>numExamples</find>
       <find>numex</find>
       <find>error</find>
-      <find>epoch</find>
       <find>vectorDimension</find>
+      <find>epoch</find>
       <find>stepSize</find>
     </findStrings>
   </component>
@@ -194,17 +207,18 @@
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/corpus.py" />
         <option value="$PROJECT_DIR$/glove_cython_D.pyx" />
-        <option value="$PROJECT_DIR$/glove_train.py" />
         <option value="$PROJECT_DIR$/libraries.py" />
         <option value="$PROJECT_DIR$/glove.py" />
+        <option value="$PROJECT_DIR$/glove_train.py" />
+        <option value="$PROJECT_DIR$/train_torch.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="505" />
-    <option name="y" value="24" />
-    <option name="width" value="1415" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -386,15 +400,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="505" y="24" width="1415" height="1048" extended-state="0" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2033046" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15447599" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.87140805" visible="true" weight="0.36630434" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.87140805" visible="true" weight="0.35251045" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49784482" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -416,14 +430,39 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/glove_train.py</url>
-          <line>151</line>
+          <line>157</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/glove_train.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>self.W[2]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.W</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.contextW[b + l2]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.cooccurrences</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>len(i)</expression-string>
         <language-id>Python</language-id>
@@ -446,26 +485,6 @@
       </expression>
       <expression>
         <expression-string>jobs.get()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>jobs[0]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>[job for job in jobs]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>[job[0] for job in jobs]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>jobs</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -604,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/corpus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="58" column="70" selection-start-line="58" selection-start-column="70" selection-end-line="58" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/corpus_cython.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -621,20 +633,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3.5/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="861" selection-start-line="861" selection-end-line="861" />
-          <folding>
-            <element signature="e#31650#34509#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.pyxbld/temp.linux-x86_64-3.5/pyrex/glove_cython_D.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
           <caret line="8298" selection-start-line="8298" selection-end-line="8298" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corpus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-401">
+          <caret line="58" column="70" selection-start-line="58" selection-start-column="70" selection-end-line="58" selection-end-column="70" />
+          <folding>
+            <element signature="e#1814#3784#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -648,36 +660,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/glove_cython_D.pyx">
+    <entry file="file:///usr/lib/python3.5/threading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="155">
+          <caret line="861" selection-start-line="861" selection-end-line="861" />
+          <folding>
+            <element signature="e#31650#34509#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/glove_train.py">
+    <entry file="file://$PROJECT_DIR$/glove_cython_D.pyx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="70" column="28" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#278#1333#0" expanded="true" />
-            <element signature="e#1429#3162#0" expanded="true" />
-            <element signature="e#3235#6156#0" expanded="true" />
-            <element signature="e#1760#3079#0" expanded="true" />
-            <element signature="e#4956#5589#0" expanded="true" />
-            <marker date="1553181588021" expanded="true" signature="1345:3168" ph="..." />
-            <marker date="1553181588021" expanded="true" signature="3576:3589" ph="..." />
-            <marker date="1553181588021" expanded="true" signature="4875:4876" ph="..." />
-            <marker date="1553181588021" expanded="true" signature="4876:4889" ph="..." />
-          </folding>
+        <state relative-caret-position="258">
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/glove.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="79" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="79" />
+        <state relative-caret-position="220">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
             <marker date="1553177712310" expanded="true" signature="294:299" ph="..." />
@@ -685,6 +688,27 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glove_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#278#1333#0" expanded="true" />
+            <element signature="e#3235#6156#0" expanded="true" />
+            <element signature="e#1760#3079#0" expanded="true" />
+            <element signature="e#4956#5589#0" expanded="true" />
+            <marker date="1553187422551" expanded="true" signature="1345:3533" ph="..." />
+            <marker date="1553187422551" expanded="true" signature="3941:3954" ph="..." />
+            <marker date="1553187422551" expanded="true" signature="5240:5241" ph="..." />
+            <marker date="1553187422551" expanded="true" signature="5241:5254" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_torch.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
