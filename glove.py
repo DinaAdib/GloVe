@@ -19,7 +19,7 @@ def main():
     vocab = load_obj("vocabIdFreq")
     cooccurrences = load_obj("coocurrenceMatrix")
 
-    model = Glove(cooccurrences = cooccurrences, d=vectorDimension, alpha=alpha, x_max=xmax)
+    model = Glove(cooccurrences = cooccurrences, d=vectorDimension, alpha=alpha, x_max=xmax, vocabSize=len(vocab))
 
     for epoch in range(25):
         err = model.train()

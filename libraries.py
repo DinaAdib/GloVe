@@ -25,11 +25,11 @@ except ImportError:
 
 
 # Set parameters
-windowSize = 5
+windowSize = 10
 embedSize = 2
 xmax = 2
 alpha = 0.75
-batchSize = 20
-learningRate = 0.001
+batchSize = 50
+learningRate = 0.05
 numEpochs = 10
-vectorDimension = 50
+vectorDimension = 200
