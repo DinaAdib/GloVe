@@ -1,0 +1,8 @@
+build/
+_pycache_
+venv
+corpus_cython.pyx
+corpus_cython.cpp
+setup.py
+Trial_Sentences.txt
+wordsToIds.pkl

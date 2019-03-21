@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Glove.iml" filepath="$PROJECT_DIR$/.idea/Glove.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LexicalSimplfication/.idea/LexicalSimplfication.iml" filepath="$PROJECT_DIR$/../LexicalSimplfication/.idea/LexicalSimplfication.iml" />
+    </modules>
+  </component>
+</project>
