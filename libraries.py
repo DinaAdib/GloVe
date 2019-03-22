@@ -14,8 +14,8 @@ import pyximport
 from scipy import sparse
 import logging
 from glove_train import *
-pyximport.install(setup_args={"include_dirs": np.get_include()})
-from glove_cython_D import train_glove
+# pyximport.install(setup_args={"include_dirs": np.get_include()})
+# from glove_cython_D import train_glove
 
 try:
     # Python 2 compat

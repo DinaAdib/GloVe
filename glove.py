@@ -1,6 +1,6 @@
 from libraries import *
 from corpus import *
-pyximport.install()
+# pyximport.install()
 
 
 FILEPATH = "/home/dina/.local/lib/python3.5/site-packages/gensim/models/text8"
@@ -17,7 +17,7 @@ def main():
     # cooccurrences = list(construct_coocurrence_matrix(vocab,corpus,windowSize,0))
     # save_obj(cooccurrences, "shortcooccurrences")
     vocab = load_obj("vocabIdFreq")
-    cooccurrences = load_obj("coocurrenceMatrix")
+    cooccurrences = load_obj("shortcooccurrences")
 
     model = Glove(cooccurrences = cooccurrences, d=vectorDimension, alpha=alpha, x_max=xmax, vocabSize=len(vocab))
 
